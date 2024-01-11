@@ -125,8 +125,8 @@ ssize_t readBuffer(info_t *info, char *buffer, size_t *pos_z)
 /**
  * custom_getline - Reads the next line of input from STDIN
  * @info: Structure containing parameter argument
- * @ptr: Address of pointer to buffer, preallocated or NULL
- * @length: Size of preallocated ptr buffer if not NULL
+ * @pntr: Address of pointer to buffer, preallocated or NULL
+ * @leng: Size of preallocated ptr buffer if not NULL
  *
  * Return: total_bytes_read
  */
